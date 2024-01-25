@@ -30,7 +30,7 @@ pipeline {
 
             steps { 
 
-                bat "mvn compile" 
+                sh "mvn compile" 
 
             } 
 
@@ -42,7 +42,7 @@ pipeline {
 
             steps { 
 
-                bat "mvn test" 
+                sh "mvn test" 
 
             } 
 
