@@ -6,7 +6,7 @@ pipeline {
 
     environment { 
 
-        def myString = 'https://github.com/EmeliePozzi/fooproject.git' 
+        def myString = 'https://github.com/EmeliePozzi/newFooproject.git' 
 
     } 
 
